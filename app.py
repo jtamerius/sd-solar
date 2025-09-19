@@ -26,7 +26,7 @@ if not st.session_state.authenticated:
 # =====================
 # App starts here
 # =====================
-st.title("Address Boundary Checker (AWS)")
+st.title("Address Boundary Checker (Test)")
 
 # Load boundary file
 boundary = gpd.read_file("data/eligible_areas_dissolved.geojson")
