@@ -3,3 +3,6 @@ data/DACs.geojson
 data/eligible_areas.geojson
 data/Municipal_Boundaries_valid.geojson
 data/Municipal_Boundaries.geojson
+
+# Streamlit secrets - NEVER commit these!
+.streamlit/secrets.toml

@@ -3,3 +3,4 @@ geopandas
 shapely
 pydeck
 boto3
+requests
