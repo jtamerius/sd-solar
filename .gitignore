@@ -6,3 +6,9 @@ data/Municipal_Boundaries.geojson
 
 # Streamlit secrets - NEVER commit these!
 .streamlit/secrets.toml
+
+eligible_areas.png
+eligible_areas2.png
+Screenshot 2026-02-18 165810.png
+data/eligible_areas_3_30_26.geojson
+data/eligible_areas_3_30_26.qmd

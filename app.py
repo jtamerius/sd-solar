@@ -29,7 +29,7 @@ if not st.session_state.authenticated:
 st.title("Address Boundary Checker (Test)")
 
 # Load boundary file
-boundary = gpd.read_file("data/eligible_areas_dissolved.geojson")
+boundary = gpd.read_file("data/eligible_areas_3_30_26.geojson")
 boundary = boundary.to_crs(epsg=4326)
 
 # Initialize AWS Location client
@@ -129,7 +129,7 @@ if address:
         inside = boundary.contains(point[0]).any()
         st.write(f"**Inside boundary?** {'✅ Yes' if inside else '❌ No'}")
 
-        gdf = gpd.read_file("data/eligible_areas_dissolved.geojson")
+        gdf = gpd.read_file("data/eligible_areas_3_30_26.geojson")
         polygon = gdf.geometry.iloc[0]
 
         polygons = []
